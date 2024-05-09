@@ -232,7 +232,7 @@ let cont = document.querySelector('.other-topics')
 for (var i = 0; i < ar.length; i++) {
   cont.innerHTML += `
       <div class="topic">
-        <h4 style="width:100%; display:flex;  justify-content: space-between;"><img style="height:50px;width:50px;background:#eee;border-radius:10px;paddin:5px;" src="/Images/Languages IMG/${ar[i].img}" ><span style="width:100%;margin-left:-10%;;text-align: center;">${ar[i].langName}</span></h4>
+        <h4 style="width:100%; display:flex;  justify-content: space-between;"><img style="height:50px;width:50px;background:#eee;border-radius:10px;paddin:5px;" src="./Images/Languages IMG/${ar[i].img}" ><span style="width:100%;margin-left:-10%;text-align: center;">${ar[i].langName}</span></h4>
         <p>${ar[i].dic}</p>
         <button class="learn-topic"><a href=""><i class="bi bi-file-text" style="margin-right:10px;font-size:20px;"></i>Learn ${ar[i].langName}</a></button>
       </div><center><hr style="width:80%"></center>

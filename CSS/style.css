@@ -1,8 +1,4 @@
-@font-face {
-  font-family: Ubuntu;
-  src: url('../../fonts/Ubuntu-Regular.ttf');
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 @keyframes open {
   0% {
@@ -19,7 +15,7 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
-  font-family: Ubuntu;
+  font-family: 'Ubuntu';
 }
 
 body {
