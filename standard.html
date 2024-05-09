@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="Ahmad Sheikh Khamis 🔥🔥">
   <meta name="generator" content="Hugo 0.112.5">
-  <title>Code Geek</title>
+  <title>Fox Store</title>
   <link rel="stylesheet" href="../bootstrap-icons-1.10.5/font/bootstrap-icons.min.css">
   <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/dashboard/">
   <link href="../CSS/bootstrap.min.css" rel="stylesheet">
@@ -16,58 +16,7 @@
   <link rel="icon" href="./Images/fox store.png" />
   <link rel="stylesheet" href="../CSS/index file styling.css">
   <link href="../CSS/dashboard.css" rel="stylesheet">
-  <style type="text/css" media="all">
-    .input{
-      width:100%;
-      padding: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: transparent;
-      /* box-shadow: 5px 5px 20px #0066CC47 ,  -5px 5px 20px #0066CC47 ,  5px -5px 20px #0066CC47 */
-    }
-    #searchInput {
-      width: 75%;
-      border: none;
-      padding: 10px;
-      color: #fff;
-      border-radius: 15px;
-      border: 1px solid #006FFFBF;
-      background: transparent;
-      border-top-right-radius: 0;
-      border-bottom-right-radius: 0;
-    }
-    
-    #searchInput:focus {
-      outline: none
-    }
-    
-    .serach-icon{
-      width: 12%;
-      border: none;
-      padding: 10px;
-      color: #fff;
-      border-radius: 15px;
-      border-top-right-radius: 15;
-      background: transparent;
-      border-top-left-radius: 0;
-      border-bottom-left-radius: 0;
-      border: 1px solid #006FFFBF;
-    }
-    
-    #searchResults{
-      width: 100%;
-      background: transparent;
-      padding: 10px 20px;
-      
-    }
-    
-    .link-search{
-      color: var(--bs-info);
-      display: block;
-      margin: 20px 0
-    }
-  </style>
+  <link rel="stylesheet" href="../CSS/animations.css">
 </head>
 
 <body>
@@ -86,8 +35,8 @@
       <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
     </symbol>
   </svg>
-  <div class="dropdown position-fixed bottom-0 end-0 mb-5 me-3 bd-mode-toggle">
-    <button style="background: var(--bs-body-bg);border-color: #06c" class="btn py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)" style="background: #0066cc">
+  <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+    <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)" style="background: #0066cc">
       <svg class="bi my-1 theme-icon-active" width="1em" height="1em">
         <use href="#circle-half"></use>
       </svg>
@@ -116,7 +65,6 @@
           </svg>
         </button>
       </li>
-
       <li>
         <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
           <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
@@ -130,86 +78,19 @@
       </li>
     </ul>
   </div>
-
-
   <header class="header">
-    <div>
-      <a href="../../" class="logo" style="color: inherit;text-decoration: none;margin: auto">Code Geek <i class="bi bi-code-slash"></i></a>
-    </div>
 
-    <div class="minu">
-      <div class="open-icon" style="margin-right: 1px">
-        <i class="bi bi-list" id="open" style="color:inherit;"></i>
-      </div>
-      <div class="list" id="list">
-        <div class="close-icon" id="close">
-          <i class="bi bi-x-lg"></i>
-        </div>
-        <div class="hidden-list">
-          <div>
-            <a href="../../" class="list-item">
-              <i class="bi bi-house"></i>
-              Home
-            </a>
-            <a href="./contact.html" class="list-item">
-              <i class="bi bi-link-45deg"></i>
-              Contact
-            </a>
-            <a href="./about.html" class="list-item">
-              <i class="bi bi-info-circle-fill"></i>
-              About Us
-            </a>
-            <a href="../pages/developer.html" class="list-item">
-              <i class="bi bi-code-slash"></i>
-              Developer
-            </a>
-            <a href="https://ask-ahmad.web.app" class="list-item">
-              <i class="bi bi-code"></i>
-              View Source
-            </a>
-            <br><br><br>
-
-
-
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--<div class="search">
-           <a href="" style="color: inherit;">
-             <i class="bi bi-search"></i>
-           </a>
-         </div>-->
   </header>
-
   <main class="main" id="main">
-    <div style="background: linear-gradient(20deg , #1B4167 ,#000000);border-top-left-radius: 0;border-top-right-radius: 0;border-radius: 15px">
-      <div class="input">
-        <input type="search" id="searchInput" placeholder="Search in articles ...">
-        <button class="serach-icon"> <i class="bi bi-search"></i></button>
-      </div>
-      <div id="searchResults"> </div>
-    </div>
+
   </main>
-  <!-- <footer style="margin-top: 100vh" class="footer" id="footer"></footer> -->
+  <footer class="footer" id="footer"></footer>
   <script src="../JS/bootstrap.bundle.min.js"></script>
-  <script type="module" src="../JS/search.js"></script>
+  <script src="../JS/main.js"></script>
   <script src="../JS/dashboard.js"></script>
+  <script src="../JS/Components/header.js"></script>
   <script src="../JS/Components/footer.js"></script>
   <script src="../JS/API .js"></script>
-  <script>
-    let list = document.getElementById('list')
-    let open = document.getElementById('open')
-    let close = document.getElementById('close')
-    let main = document.getElementById('main')
-    open.onclick = function() {
-      list.style.marginLeft = '-0%'
-    }
-
-    close.onclick = function() {
-      list.style.marginLeft = '-60%'
-    }
-  </script>
 </body>
 
 </html>

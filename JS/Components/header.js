@@ -10,6 +10,7 @@ header.innerHTML = `
         <a style="color: inherit" href="../../../pages/search.html"><i class="bi bi-search" id="search" style="color: inherit;margin-right: -1px;font-size: 20px;margin-left: 10px"></i></a>
         <i class="bi bi-eye" id="read" style="color: inherit;margin-left: 5px"></i>
         <i class="bi bi-list" id="open" style="color:inherit;"></i>
+        
       </div>
       <div class="list" id="list">
         <div class="close-icon" id="close">

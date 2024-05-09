@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search Articles</title>
+<style>
+  #searchInput {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+</style>
+</head>
+<body>
+
+<input type="text" id="searchInput" placeholder="Search articles">
+
+<div id="searchResults"></div>
+
+<script>
+  const articles = [
+    { id: 1, article: "This is the first article about cats." },
+    { id: 2, article: "The second article is about dogs." },
+    { id: 3, article: "Another article discussing birds." }
+  ];
+
+  const searchInput = document.getElementById('searchInput');
+  const searchResults = document.getElementById('searchResults');
+
+  searchInput.addEventListener('input', handleSearch);
+
+  function handleSearch() {
+    const searchTerm = searchInput.value.toLowerCase();
+    const filteredArticles = articles.filter(article => article.article.toLowerCase().includes(searchTerm));
+    displaySearchResults(filteredArticles);
+  }
+
+  function displaySearchResults(results) {
+    searchResults.innerHTML = '';
+    if (results.length === 0) {
+      searchResults.innerHTML = '<p>No results found.</p>';
+    } else {
+      results.forEach(result => {
+        const paragraph = document.createElement('p');
+        paragraph.textContent = result.article;
+        searchResults.appendChild(paragraph);
+      });
+    }
+  }
+</script>
+
+</body>
+</html>

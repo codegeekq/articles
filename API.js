@@ -5,7 +5,7 @@ export const articlesArray = [
     poster: ahdev,
     articleName: 'HTML Introduction (Lesson 1)',
     date: '7 / 10 / 2023 ',
-    article: ' Welcome feet into HTML introduction <br> In the beginning HTML is a markup language used to build the structure of  websites pages and this language is the farst and main step in your  programming learning trip . <br>  HTML founded by Tim Berners-Lee in 1993 and this language has passed in several stages the first of them is HTML 1.0 then HTML 2.0 , HTML 3.0 , HTML 4.0 and last version is HTML 5.0 . <br> This language is very easy and you can use it with more languages as : CSS , JS , Python , PHP ... etc . And we will study this language in general and I will explain some of main tags which helps you to build websites pages easily . <br> And when you finish learning this language you can learn CSS in our website <a href="../css/lesson1.html">by this link</a> .<br><br> And now we will start learning the HTML . First this language depends on your understanding of this information: this language has many tags as <br> &lt;html&gt; &lt;body&gt; &lt;head&gt; ... and very more tags used in different sites . <br> And this image explain the tag structure <br> <img src="https://tutorial.techaltum.com/images/element.png" alt="HTML TAG" height="130px" style="  border-radius: 10px;filter: invert(100%)"> <br> Now you have this table that contains HTML tags . <br> <br> <h5 class="headers">HTML 5 Tags & Usage</h5> <br> <iframe style="width:100%;height:1000px" src="./html tags .html" frameborder="0"></iframe> <br> By this table you can create any page structure fast <br> This lesson has finished. You can continue the second lesson using this link <a href="./lesson2.html">👉 Lesson 2 👈</a>',
+    article: ' Welcome into HTML introduction <br> In the beginning HTML is a markup language used to build the structure of  websites pages and this language is the farst and main step in your  programming learning trip . <br>  HTML founded by Tim Berners-Lee in 1993 and this language has passed in several stages the first of them is HTML 1.0 then HTML 2.0 , HTML 3.0 , HTML 4.0 and last version is HTML 5.0 . <br> This language is very easy and you can use it with more languages as : CSS , JS , Python , PHP ... etc . And we will study this language in general and I will explain some of main tags which helps you to build websites pages easily . <br> And when you finish learning this language you can learn CSS in our website <a href="../css/lesson1.html">by this link</a> .<br><br> And now we will start learning the HTML . First this language depends on your understanding of this information: this language has many tags as <br> &lt;html&gt; &lt;body&gt; &lt;head&gt; ... and very more tags used in different sites . <br> And this image explain the tag structure <br> <img src="https://tutorial.techaltum.com/images/element.png" alt="HTML TAG" height="130px" style="  border-radius: 10px;filter: invert(100%)"> <br> Now you have this table that contains HTML tags . <br> <br> <h5 class="headers">HTML 5 Tags & Usage</h5> <br> <iframe style="width:100%;height:1000px" src="./html tags .html" frameborder="0"></iframe> <br> By this table you can create any page structure fast <br> This lesson has finished. You can continue the second lesson using this link <a href="./lesson2.html">👉 Lesson 2 👈</a>',
     shortArticle: 'Welcome into HTML introduction ... In the beginning HTML is a markup language used to build the structure of  websites pages and this language is the farst and main step in your  programming learning trip .',
     learnMoreLink: 'pages/Front-end Road Map/html/lesson1.html',
     category: 'programming',
@@ -13,7 +13,15 @@ export const articlesArray = [
     langName: 'HTML',
     articleImag: '/Images/Articles Images /html.png' ,
     lessonNumer: 'leeson 1' ,
+    roadMap : 'Front-end',
     
+    
+    arArticle: 
+      `مرحبًا بكم في HTML مقدمة <br> في البداية HTML هي لغة ترميز تستخدم لبناء هيكل صفحات مواقع الويب وهذه اللغة هي الخطوة الأبعد والأساسية في رحلة تعلم البرمجة الخاصة بك. <br> HTML أسسها تيم بيرنرز لي في عام 1993 وقد مرت هذه اللغة في عدة مراحل ، أولها هو HTML 1.0 ثم HTML 2.0 و HTML 3.0 و HTML 4.0 والإصدار الأخير هو HTML 5.0. <br> هذه اللغة سهلة للغاية ويمكنك استخدامها بمزيد من اللغات مثل: css و js و python و php ... إلخ. وسندرس هذه اللغة بشكل عام وسأشرح بعض العلامات الرئيسية التي تساعدك على إنشاء صفحات مواقع الويب بسهولة. <br> وعند الانتهاء من تعلم هذه اللغة ، يمكنك تعلم CSS في موقعنا <a href="../css/lesson1.html"> من خلال هذا الرابط </a>. <br> <br> والآن سنبدأ في تعلم HTML. أولاً ، تعتمد هذه اللغة على فهمك لهذه المعلومات: تحتوي هذه اللغة على العديد من العلامات مثل <br> & lt؛ html & gt؛ & lt؛ الجسم & gt؛ & lt؛ head & gt؛ ... والمزيد من العلامات المستخدمة في مواقع مختلفة. <br> وهذه الصورة تشرح بنية العلامة <br> <img src = "https://tutorial.techaltum.com/images/element.png" alt="HTML tag" height = "130px" style = "border-radius: 10px؛ filter: INVERT(100%)"> <br> لديك هذا الجدول الذي يحتوي على علامات HTML. <br> <br> <h5 class = "headers"> html 5 علامات & الاستخدام </ h5> <br> <iframe style = "width: 100٪؛ height: 1000px" src = "./tags .html" FrameBorder = "0"> </iframe> <br> من خلال هذا الجدول ، يمكنك إنشاء أي بنية صفحة بسرعة <br> انتهى هذا الدرس. يمكنك متابعة الدرس الثاني باستخدام هذا الرابط <a href="./lesson2.html"> الدرس 2 👈</a>`
+    , 
+    
+    
+    searchKeyWords: 'Lesson Tutorial of html Introduction intro Intro introduction lesson1 web fornt Front end development html tags basics HTML Html first lesson on html tutorial ' ,
   },
   {
     poster: ahdev,
@@ -25,8 +33,11 @@ export const articlesArray = [
     category: 'programming',
     posterLogo: 'Images/Dev.png',
     langName: 'HTML',
-    articleImag: '/Images/Articles Images /Picsart_24-03-31_11-17-48-261.png' ,
-    lessonNumer: 'leeson 2'
+    articleImag: '/Images/Articles Images /html.png' ,
+    lessonNumer: 'leeson 2' ,
+    roadMap : 'Front-end',
+    searchKeyWords: 'Lesson html Front end front lesson2 web development html explain basics HTML Html second lesson on html tutorial explain html more info information lesson2' ,
+
   },
   {
     poster: ahdev,
@@ -38,8 +49,10 @@ export const articlesArray = [
     category: 'programming',
     posterLogo: 'Images/Dev.png',
     langName: 'HTML',
-    articleImag: '/Images/Articles Images /Picsart_24-03-31_11-17-48-261.png' ,
-    lessonNumer: 'leeson 3'
+    articleImag: '/Images/Articles Images /html.png' ,
+    lessonNumer: 'leeson 3' ,
+    roadMap : 'Front-end',
+    searchKeyWords: 'Lesson html Project project lesson3 web development html tags basics HTML Html first lesson on html tutorial tags review ' ,
   },
   {
     poster: ahdev,
@@ -51,9 +64,10 @@ export const articlesArray = [
     category: 'programming',
     posterLogo: 'Images/Dev.png',
     langName: 'CSS',
-        articleImag: 'Images/Developer logo .jpg' ,
-
-    lessonNumer: 'leeson 1'
+    roadMap : 'Front-end',
+    articleImag: '/Images/Articles Images /css.png' ,
+    lessonNumer: 'leeson 1' ,
+    searchKeyWords: 'Lesson html Project project lesson3 web development html tags basics HTML Html first lesson on html tutorial tags review ' ,
   },
   {
     poster: ahdev,
@@ -65,8 +79,8 @@ export const articlesArray = [
     category: 'programming',
     posterLogo: 'Images/Dev.png',
     langName: 'CSS',
-        articleImag: 'Images/Developer logo .jpg' ,
-
+    roadMap : 'Front-end',
+    articleImag: '/Images/Articles Images /css.png' ,
     lessonNumer: 'leeson 2'
   },
 
@@ -81,8 +95,8 @@ export const articlesArray = [
     category: 'programming',
     posterLogo: 'Images/Dev.png',
     langName: 'CSS',
-        articleImag: 'Images/Developer logo .jpg' ,
-
+    roadMap : 'Front-end',
+    articleImag: '/Images/Articles Images /css.png' ,
     lessonNumer: 'leeson 3'
   },
   {
